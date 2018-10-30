@@ -1,0 +1,16 @@
+{
+  "name": "example-arangojs",
+  "description": "Demonstrates typescript error when compiling arangojs dependent project",
+  "main": "build/app/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^10.9.2",
+    "tslint": "^5.11.0",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "arangojs": "^6.7.0"
+  }
+}

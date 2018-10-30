@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "tslint-config-airbnb"
+  ],
+  "rules": {
+    "no-constant-condition": true,
+    "no-increment-decrement": false,
+	"no-trailing-whitespace": true,
+	"max-line-length": false,
+	"variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore"]
+  }
+}
